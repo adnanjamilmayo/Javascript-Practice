@@ -37,3 +37,7 @@ Promise.all([promis1,promis2,promis3]).then((value)=>{
     },5000)
     
 })
+async function promis(){
+    const response = await promis3
+    console.log(response);
+}
