@@ -1,4 +1,8 @@
-const Balance = new Number(100)
+var i = 7;
+  var j = 2;
 
-console.log(Balance);
-console.log(Balance.toString().localeCompare);
+  if(i < 7 || j < 5) {
+    console.log("Hello");
+  } else {
+    console.log("Goodbye");
+  }
